@@ -1,5 +1,5 @@
 A full-stack URL Shortener application built using Node.js, Express.js, MongoDB, Mongoose, and EJS following the MVC (Model-View-Controller) architecture. The application allows users to register, log in, generate short URLs, track URL visits, and manage their own shortened links through a secure dashboard.
-
+```text
 Features
 User Registration and Login
 Cookie-Based Authentication
@@ -15,7 +15,7 @@ Server-Side Rendering using EJS
 
 ## Project Structure
 
-```text
+
 URL-Shortener/
 │
 ├── controllers/
@@ -48,7 +48,7 @@ URL-Shortener/
 ├── package-lock.json
 ├── .gitignore
 └── README.md
-```
+
 
 
 Authentication Flow
@@ -84,5 +84,6 @@ EJS
 HTML
 CSS
 Authentication
+```
 Cookie Parser
 Custom Session-Based Authentication
