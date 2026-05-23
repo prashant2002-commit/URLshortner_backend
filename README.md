@@ -13,20 +13,43 @@ MongoDB Database Integration
 MVC Architecture
 Server-Side Rendering using EJS
 
-Project Structure
-project/
+## Project Structure
+
+```text
+URL-Shortener/
 │
 ├── controllers/
+│   ├── url.js
+│   └── user.js
+│
 ├── middleware/
+│   └── auth.js
+│
 ├── model/
+│   ├── url.js
+│   └── user.js
+│
 ├── routes/
+│   ├── staticRouter.js
+│   ├── url.js
+│   └── user.js
+│
 ├── service/
+│   └── auth.js
+│
 ├── views/
+│   ├── home.ejs
+│   ├── login.ejs
+│   └── signup.ejs
 │
 ├── connect.js
 ├── index.js
 ├── package.json
+├── package-lock.json
+├── .gitignore
 └── README.md
+```
+
 
 Authentication Flow
 User signs up.
