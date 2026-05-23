@@ -84,6 +84,6 @@ EJS
 HTML
 CSS
 Authentication
-```
 Cookie Parser
 Custom Session-Based Authentication
+```
